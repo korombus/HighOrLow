@@ -1,3 +1,4 @@
+﻿#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 
@@ -8,6 +9,15 @@ int GetHighOrLow(int ran1, int ran2);
 
 int main() {
 	/*
+		1. 乱数1発生
+		2. 乱数を表示して、ユーザに次の数は高いか低いかを予想してもらう
+		3. ユーザの入力が確定したら、乱数を発生
+		4. 乱数１と入力後の乱数の高低差を比較
+		5. ユーザの予想と実際の高低差を比較
+		6. 結果を表示
+		7, 続けるか止めるかを選択
+		8, 続けるならば1に戻る
+		9. 止めるならば終了
 		*/
 	int rand1 = 0;
 	while (true) {
